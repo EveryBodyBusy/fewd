@@ -1,0 +1,31 @@
+
+body {
+max-width: 500px;
+
+background: #FFE;
+text-align: left;
+margin: 20 auto 0 auto;
+border: 20px solid black;
+padding: 30px;
+
+}
+}
+h1 {
+	color: blue;
+	}
+
+h2 {
+	font-size: 14px;
+	color: #889;
+}
+
+h3 {
+	color: #887;
+}
+
+img {
+	display: block;
+    margin: 0 auto; 
+    border: 2px solid black;
+    padding: 20px;
+}
