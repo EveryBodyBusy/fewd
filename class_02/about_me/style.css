@@ -1,0 +1,25 @@
+body {
+
+	background: #ffde6b;
+	color: #EF5836;
+	font-family: "helvetica", helvetica, sans-serif ;
+}
+
+h1 {
+	color: rgba(0,100,100,.5);
+	font-size: 250px;
+	line-height: .5em;
+	font-family: "helvetica", helvetica, sans-serif ;
+	margin-top: 60px;
+	margin-bottom: -50px;
+}
+
+h2 {
+	color: rgba(250,100,150,.5);
+	
+}
+
+nav {
+	
+
+}

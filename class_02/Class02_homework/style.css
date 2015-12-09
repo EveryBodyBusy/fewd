@@ -1,0 +1,181 @@
+
+
+h1 {
+	font-weight: normal;
+	text-decoration: none;
+	font-family: "Helvetica", Helvetica, sans-serif;
+	font-size: 30px;
+	letter-spacing: .1em; 
+}
+
+h2 {
+	font-weight: normal;
+	font-family: "Helvetica", Helvetica, sans-serif;
+	font-size: 20px;
+	letter-spacing: .05em; 
+	text-align: left;
+	color: #000;
+	margin-top: 60px;
+	margin-right: 10px;
+	max-width: 100%;
+	-webkit-column-count: 5; /* Chrome, Safari, Opera */
+    -moz-column-count: 5; /* Firefox */
+    column-count: 5;
+}
+
+h3 {
+	font-weight: bold;
+	font-family: "Helvetica", Helvetica, sans-serif;
+	font-size: 20px;
+	letter-spacing: .05em; 
+	text-align: left;
+	color: #000;
+	margin-right: 10px;
+	max-width: 100%;
+}
+
+p {
+	font-weight: normal;
+	text-decoration: none;
+	font-family: "Helvetica", Helvetica, sans-serif;
+	font-size: 30px;
+	letter-spacing: .05em; 
+	text-align: left;
+	max-width: 50%;
+	color: rgba(100, 134, 219, 0.8);
+	margin-top: 60px;
+}
+
+/* This is where I have questions :) How would you set up columns and, for example, 
+have the project text still follow the 5 column grid but have 1 block extend over 2
+columns?*/
+p.projects {
+	font-weight: normal;
+	font-family: "Helvetica", Helvetica, sans-serif;
+	font-size: 20px;
+	letter-spacing: .05em; 
+	text-align: left;
+	color: #000;
+	margin-right: 10px;
+	margin-top: -10px;
+	max-width: 35%;
+	
+}
+
+hr.projectrule {
+	border-top: 1px solid rgba(38, 12, 12, 0.22);
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: -10px;
+
+}
+
+hr.linea { 
+	border-top: 150px solid rgba(56, 234, 219, 0.8);
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 60px;
+    }
+
+hr.lineb { 
+	border-top: 150px solid rgba(100, 134, 219, 0.8);
+    margin-top: -16px;
+    margin-left: auto;
+    margin-right: 10px;
+    }  
+hr.linec { 
+	border-top: 150px solid rgba(250, 55, 219, 0.8);
+    margin-top: -16px;
+    margin-left: auto;
+    margin-right: 10px;
+    }        
+hr.lined { 
+	border-top: 150px solid rgba(190, 200, 20, 1);
+    margin-top: -16px;
+    margin-left: auto;
+    margin-right: 10px;
+    }  
+/* FOR NAV */
+
+nav {
+    /*background-color:#eeeeee;*/
+    /* margin underneath is to get the 'nav' to be baseline aligned with the 'header'*/
+    margin-top: -55px;
+    text-align: center;
+/*    margin-left: 290px;*/
+    /* Not really sure how to make the whole page 5 columns and place the 
+    nav links in column 4 and have them move proportionately if the browser is smaller */
+    
+    /*	position: absolute;
+  		left: 30%;*/
+  	
+  	/* 	-webkit-column-count: 5;
+     	-moz-column-count: 5;
+         column-count: 5;
+        -webkit-column-gap: 20px; */
+}
+
+/* FOR NAV LINKS*/
+
+a.navlink {
+	text-decoration: none;
+    border-bottom: 1px solid rgba(38, 12, 12, 0.22);
+}
+
+a.navlink:link {
+    color: #000;
+}
+
+a.navlink:visited {
+    color: #000;
+}
+a.navlink:hover {
+    color: rgba(38, 12, 12, 0.22);
+}
+
+/* FOR CURRENT PAGE */
+
+a.currentpage {
+	text-decoration: none;
+	color: rgba(100, 134, 219, 0.8);
+    border-bottom: 1px solid rgba(100, 134, 219, 0.8);
+}
+a.currentpage:hover {
+    color: rgba(38, 12, 12, 0.22);
+    border-bottom: 1px solid rgba(38, 12, 12, 0.22);
+}
+
+
+/* FOR HOME LINK */
+header {
+	margin-left: 10px;
+}
+a.home:link {
+    color: #000;
+    text-decoration: none;
+}
+
+a.home:visited {
+    color: #000;
+    text-decoration: none;
+}
+a.home:hover {
+    color: rgba(38, 12, 12, 0.22);
+    text-decoration: none;
+}
+
+section {
+	margin-left: 10px;
+}
+
+img.portfoliopics {
+padding-left: 39%;
+margin-top: -110px;
+}
+
+body {
+	font-family: "Helvetica", Helvetica, sans-serif;
+	font-size: 30px;
+	letter-spacing: .1em; 
+	background-color: rgba(191, 63, 167, 0.2);
+}
