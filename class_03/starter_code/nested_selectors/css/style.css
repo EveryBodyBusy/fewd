@@ -1,0 +1,29 @@
+body {
+	background-color: rgb(50,190,200);
+}
+
+blockquote {
+	background-color: rgb(50,90,200);
+	padding: 2px 10px;
+	font-style: italic;
+	color: #FFF;
+}
+
+blockquote em {
+	font-style: normal;
+}
+#hi {
+	font-size: 30px;
+}
+
+.bluebox {
+	text-decoration: underline;
+	background-color: red;
+	padding: 30px;
+}
+
+.redbox {
+	text-decoration: underline;
+	background-color: red;
+	padding: 30px;
+}
