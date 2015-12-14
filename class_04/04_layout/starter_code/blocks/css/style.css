@@ -1,0 +1,45 @@
+
+
+.block {
+  width: 200px;
+  height: 200px;
+}
+
+.pink { background: #ee3e64; 
+	font-size: 22px;
+	color: white;
+}
+.blue { background: #44accf; }
+.green { background: #b7d84b; }
+.orange { background: #E2A741; }
+.purple { background: #520577;}
+
+
+.header {
+	width: 100%;
+	height: 10%;
+}
+
+.main {
+	width: 50%;
+	height: auto;
+	float: left;
+	overflow: auto;
+}
+
+.aside {
+	width: 50%;
+	height: 40%;
+	float: right;
+}
+.aside2 {
+	width: 50%;
+	height: 40%;
+	float: right;
+}
+
+.footer {
+	width: 100%;
+	height: 10%;
+	float: left;
+}
