@@ -48,8 +48,8 @@ Developer @GA in NYC
 body {
      line-height: 1.4;     
      font-family: 'Open Sans', sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top #FFF;
-     background-size: 100%;
+     background: url(../images/header_bg.jpg) no-repeat center center fixed #FFF;
+     background-size: cover;
 
 }
 
