@@ -1,0 +1,96 @@
+div, header, footer, section {
+	border: 1px solid red;
+}
+
+header {
+	height: 100px;
+	margin-bottom: 50px;
+	overflow: auto;
+}
+
+header div {
+	height: 80px;
+	margin: 10px;
+	float: left;
+	width: 10%;
+}
+
+#main {
+	height: 200px;
+	overflow: auto;
+	margin-bottom: 50px;	
+}
+
+#two {
+	margin-bottom: 50px;
+	overflow: auto;
+}
+
+#two section{
+	height: 180px;
+	width: 20%;
+	margin: 1%;
+	float: left;
+}
+
+footer {
+	margin-bottom: 50px;
+	overflow: auto;
+}
+
+footer section {
+	height: 80px;
+	margin: 10px;
+	width: 28%;
+	margin-left: 3%;
+	float: left;
+}
+
+
+/* Mobile Styles */
+
+@media only screen and (max-width: 700px) and (min-width: 501px) {
+
+#two section{
+	height: 180px;
+	width: 40%;
+	margin: 20px;
+	float: left;
+}
+
+.menu-two {
+	display: none;
+}
+
+footer section {
+	height: 80px;
+	margin: 10px;
+	width: 20%;
+	margin-left: 3%;
+	float: left;
+}
+
+}
+
+@media only screen and (max-width: 500px) and (min-width: 1px) {
+
+header div{
+	display: none;
+}
+
+
+#two section:last-child{
+	display: none;
+}
+
+#two section{
+	width: 95%;
+}
+
+
+footer section {
+	width: 95%;
+}
+
+}
+

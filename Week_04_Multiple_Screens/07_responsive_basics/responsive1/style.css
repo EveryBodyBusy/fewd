@@ -1,0 +1,51 @@
+header div {
+	float: left;
+	width: 200px;
+	height: 50px;
+	background: red;
+	margin-right: 10px;
+	margin-bottom: 30px;
+}
+
+.section2 {
+	clear: both;
+	width: 100%;
+	height: 150px;
+	background: red;
+	margin-bottom: 30px;
+}
+
+.section3 {
+	clear: both;
+	width: 100%;
+	height: 250px;
+	background: yellow;
+	overflow: auto;
+	margin-bottom: 30px;
+}
+
+.section3 div {
+	float: left;
+	width: 200px;
+	height: 150px;
+	background: red;
+	margin-top: 50px;
+	margin-right: 20px;
+}
+
+.section4 {
+	clear: both;
+	width: 100%;
+	height: 250px;
+	background: yellow;
+	overflow: auto;
+}
+
+.section4 div {
+	float: left;
+	width: 200px;
+	height: 150px;
+	background: red;
+	margin-top: 50px;
+	margin-right: 20px;
+}
