@@ -95,14 +95,34 @@ h2 {
   text-align: center;
 }
 
-section {
-  background: #c6c6c6;
+#banner {
+    background: #c6c6c6;
 }
 
-.meet {
-  float: left;
-  border: 1px solid red;
+#banner .container {
+  background: url(../images/dating.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  height: 500px;
+}
 
+
+.meet {
+  background: rgba(255,255,255,.75);
+  float: right;
+  height: 440px;
+  width: 350px;
+  border: 1px solid red;
+  margin: 30px;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 32px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 
