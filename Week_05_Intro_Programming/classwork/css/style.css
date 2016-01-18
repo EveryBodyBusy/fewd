@@ -1,0 +1,48 @@
+section {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.image {
+  float: left;
+  width: 23%;
+  margin: 1%;
+}
+
+.image-xl {
+  float: left;
+  width: 48%;
+  margin: 1%;
+}
+
+img {
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+
+  section {
+    width: 100%;
+  }
+
+  .image {
+    float: left;
+    width: 31.3333333%;
+    margin: 1%;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  section {
+    width: 100%;
+  }
+
+  .image {
+    float: left;
+    width: 98%;
+    margin: 1%;
+  }
+
+}
