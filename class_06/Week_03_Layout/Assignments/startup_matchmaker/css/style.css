@@ -37,10 +37,10 @@ body {
 
 header {
   background: #000;
-  height: 120px;
+  height: 80px;
 }
 
-h1, h2 {
+h1, h2, h4 {
   font-family: 'Merriweather', serif;
 }
 h1 {
@@ -49,11 +49,13 @@ h1 {
   color: yellow;
   font-weight: 700;
   height: 70px;
+  float: left;
+  font-size: 28px;
 }
 
 .mainnav {
-  float: left;
-  margin-left: 200px;
+  float: right;
+  margin-top: 22px;
 }
 
 .mainnav a {
@@ -62,10 +64,6 @@ h1 {
   text-decoration: none;
   font-family: 'Oswald', sans-serif;
   font-size: 20px;
-}
-
-.secondnav {
-  float: left;
 }
 
 .secondnav a {  
@@ -114,22 +112,114 @@ h2 {
   float: right;
   height: 440px;
   width: 350px;
-  border: 1px solid red;
   margin: 30px;
+  box-shadow: 3px 3px 3px #000;
 }
 
 h3 {
   margin-top: 20px;
   margin-left: 20px;
   font-size: 32px;
+  margin-bottom: 0px;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.meet p{
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 22px;
+  line-height: 1.5em;
+}
 
+.profilebutton {
+  margin: auto; 
+  width: 305px;
+  height: 50px;
+  padding-top: 11px;
+  border-radius: 10px;
+  font-family: 'Oswald', sans-serif;
+  background: yellow;
+  text-align: center;
+  font-size: 20px;
+}
+
+.column {
+  height: 275px;
+  width: 300px;
+  float: left;  
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  /*padding-top: 10px;*/
+  padding-left: 20px;
+  border-right: 1px solid black;  
+}
+
+h4 {
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+.column p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.column .profilebutton {
+    width: 250px;
+    margin-left: 5px;
+    background: #BAB8B8;
+    box-shadow: 3px 3px 3px #000;
+}
+
+footer {
+  padding-top: 20px;
+  clear: both;
+  background: #000;
+  color: #FFF;
+  height: 100px;
+  font-size: 20px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+@media only screen and (max-width: 400px) and (min-width: 1px) {
 
+.container {
+  width: 400px;
+  margin: auto;
+}
+
+header {
+  background: #000;
+  height: 180px;
+}
+.mainnav {
+  float: right;
+  margin-top: 12px;
+  margin-right: 40px;
+  margin-left: 20px;
+}
+
+.brains {
+  padding-left: 12px;
+  padding-right: 12px;
+  margin: 0;
+  height: 100px;
+  background: #c6c6c6;
+}
+
+.column {
+  padding-left: 50px;
+  border-right: 0px;
+}
+
+footer {
+  padding-left: 20px;
+}
+
+}
 
 
