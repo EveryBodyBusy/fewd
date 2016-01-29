@@ -1,0 +1,23 @@
+body {
+	background: green;
+}
+
+.container {
+	width: 50%;
+	margin: auto;
+}
+
+button {
+	background-color: yellow;
+	width: 100px;
+	height: 50px;
+
+}
+
+h1 {
+	color: #FFF;
+	font-size: 400px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+}
